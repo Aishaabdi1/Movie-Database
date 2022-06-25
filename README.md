@@ -24,8 +24,10 @@ DONE
 
 * It's done when `movie_db` is created and contains a `movies` and `reviews` table.
 DONE
+
 * It's done when `movie_db` has been seeded with data.
 DONE
+
 * It's done when the `/api/movies` route renders a list of all movies.
 
 * It's done when the `/api/add-movie` route successfully adds a movie when tested using Insomnia.
