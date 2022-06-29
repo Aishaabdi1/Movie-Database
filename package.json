@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Aishaabdi1/Movie-Database#readme",
   "dependencies": {
+    "express": "^4.18.1",
     "jest": "^28.1.2",
     "mysql2": "^2.3.3"
   }

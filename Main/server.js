@@ -1,3 +1,4 @@
+const { response } = require('express');
 const express = require('express');
 // Import and require mysql2
 const mysql = require('mysql2');
@@ -8,6 +9,15 @@ const app = express();
 // Express middleware
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+
+// It's done when the /api/movies route renders a list of all movies //
+app.get("api/movies", (request, response)=> {
+  response.send("Hello");
+});
+
+app.listen(port, () => {
+  console.log("Server running on port", port, "🚀");
+});
 
 // Connect to database
 const db = mysql.createConnection(
