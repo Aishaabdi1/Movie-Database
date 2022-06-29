@@ -5,10 +5,10 @@ In this mini-project, you will build Rest API routes for creating, retrieving, a
 ## User Stories
 
 * As a user, I want to create a new database. done
-created a database called movies_db
+created a database called movies_db DONE
 
 * As a user, I want to store movie names and reviews in the database in two separate table.
-done
+DONE
 
 * As a user, I want to see a list of all movies.
 DONE

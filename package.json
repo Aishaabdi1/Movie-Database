@@ -1,0 +1,23 @@
+{
+  "name": "movie-database",
+  "version": "1.0.0",
+  "description": "In this mini-project, you will build Rest API routes for creating, retrieving, and deleting movies from a MySQL database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aishaabdi1/Movie-Database.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aishaabdi1/Movie-Database/issues"
+  },
+  "homepage": "https://github.com/Aishaabdi1/Movie-Database#readme",
+  "dependencies": {
+    "jest": "^28.1.2",
+    "mysql2": "^2.3.3"
+  }
+}
